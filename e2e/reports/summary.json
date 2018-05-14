@@ -1,0 +1,97 @@
+[
+  {
+    "description": "    A calculadora deve ser capaz de realizar operações de soma",
+    "keyword": "Funcionalidade",
+    "name": "Adição",
+    "line": 2,
+    "id": "adição",
+    "tags": [],
+    "uri": "e2e/features/adicao/adicao.feature",
+    "elements": [
+      {
+        "id": "adição;fazer-uma-operação-de-soma-simples",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Fazer uma operação de soma simples",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "e2e/features/adicao/adicao.steps.ts:8"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Dado ",
+            "line": 6,
+            "name": "que não há números anteriormente preenchidos",
+            "match": {
+              "location": "e2e/features/adicao/adicao.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1229000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Quando ",
+            "line": 7,
+            "name": "eu adicionar \"1\" + \"1\"",
+            "match": {
+              "location": "e2e/features/adicao/adicao.steps.ts:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "E ",
+            "line": 8,
+            "name": "clicar no botão \"=\"",
+            "match": {
+              "location": "e2e/features/adicao/adicao.steps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Então ",
+            "line": 9,
+            "name": "o resultado deve ser \"2\"",
+            "match": {
+              "location": "e2e/features/adicao/adicao.steps.ts:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/protractor-cucumber-framework/lib/resultsCapturer.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
